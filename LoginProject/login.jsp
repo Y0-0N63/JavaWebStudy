@@ -30,7 +30,6 @@
           </a>
           <ul class="dropdown-menu">
             <li class="active"><a href="login.jsp">로그인</a></li>
-            <!-- active는 단 한 개의 페이지에만 들어갈 수 있으며 현재 선택된 페이지를 뜻함! -->
             <li><a href="join.jsp">회원가입</a></li>
           </ul>
         </li>
