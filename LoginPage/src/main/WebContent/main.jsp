@@ -16,6 +16,7 @@
     String userID=null;
     //세션에서 userID 속성 가져와서 null 값인지 여부 확인
     if(session.getAttribute("userID")!=null){
+        // 문자열의 형태로 형변환해서 userID에 저장~
     	userID=(String)session.getAttribute("userID");
     }
   %>
