@@ -12,6 +12,7 @@
 
 <body>
   <%
+    // null 값 할당 -> 사용자가 로그인되어 있지 않은 초기 상태를 나타냄
     String userID=null;
     if(session.getAttribute("userID")!=null){
     	userID=(String)session.getAttribute("userID");
